@@ -8,10 +8,11 @@
         <title>Caculator</title>
 
         <style>
+
             .container{
                 max-width: 400px;
                 margin: 10vh auto 0 auto;
-                box-shadow: 0px 0px 43px 17px rgb(195, 191, 191);
+                box-shadow: 0px 0px 10px 7px rgb(195, 191, 191);
             }
 
             #display{
@@ -20,26 +21,30 @@
                 line-height: 70px;
                 padding: 16px 8px;
                 font-size: 25px;
+                background-color: orangered;
+                color: white;
             }
 
             .buttons{
                 display: grid;
-                border-bottom: 1px solid #999;
-                border-left: 1px solid #999;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
+                row-gap: 5px;
+                column-gap: 5px;
+                padding: 10px;
             }
 
             .buttons div{
                 border-right: 1px solid #999;
                 border-top: 1px solid #999;
+                box-shadow: 0px 0px 1px 1px rgb(203, 203, 203);
             }
 
             .button{
-                border: 0.5px solid #999;
                 line-height: 100px;
                 text-align: center;
                 font-size: 25px;
                 cursor: pointer;
+                border-radius: 20px;
             }
 
             #clear{
